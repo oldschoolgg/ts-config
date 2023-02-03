@@ -1,0 +1,19 @@
+{
+	"name": "@oldschoolgg/ts-config",
+	"version": "0.0.1",
+	"description": "OldschoolGG ts config",
+	"license": "",
+	"main": "tsconfig.json",
+	"exports": {
+		".": {
+			"import": "./tsconfig.json",
+			"require": "./tsconfig.json"
+		}
+	},
+	"sideEffects": false,
+	"scripts": {},
+	"dependencies": {},
+	"files": [
+		"tsconfig.json"
+	]
+}
